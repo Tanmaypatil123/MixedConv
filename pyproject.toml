@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mixedconv"
+version = "0.1.0"
+description = "Reproducible mixed-precision quantization experiments for Krea 2"
+requires-python = ">=3.11"
+dependencies = [
+  "accelerate>=1.8",
+  "diffusers @ git+https://github.com/huggingface/diffusers.git",
+  "huggingface-hub>=0.33",
+  "numpy>=2.0",
+  "pillow>=11",
+  "pyyaml>=6.0.2",
+  "safetensors>=0.5",
+  "torch>=2.7",
+  "transformers>=4.53",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.4",
+  "ruff>=0.12",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

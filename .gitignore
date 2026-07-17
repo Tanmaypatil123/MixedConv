@@ -203,6 +203,14 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# MixedConv generated artifacts and model caches
+runs/
+models/
+hf_cache/
+*.safetensors
+*.pt
+*.pth
+
 # Ruff stuff:
 .ruff_cache/
 

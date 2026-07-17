@@ -1,0 +1,32 @@
+{"id":"dev-portrait-01","category":"portrait","seed":3001,"prompt":"Editorial portrait of a botanist in a greenhouse, realistic skin, detailed eyes and hands"}
+{"id":"dev-portrait-02","category":"portrait","seed":3002,"prompt":"Black and white portrait of a jazz pianist backstage, soft side lighting, natural expression"}
+{"id":"dev-portrait-03","category":"portrait","seed":3003,"prompt":"Outdoor portrait of a mountain guide wearing a red jacket, cloudy daylight, shallow depth of field"}
+{"id":"dev-portrait-04","category":"portrait","seed":3004,"prompt":"Full-body fashion portrait in a simple white studio, balanced pose, accurate hands and clothing folds"}
+{"id":"dev-landscape-01","category":"landscape","seed":3011,"prompt":"Broad green valley beneath a large empty sky, winding river, distant mist, realistic landscape photograph"}
+{"id":"dev-landscape-02","category":"landscape","seed":3012,"prompt":"Snow-covered plateau at sunrise, gentle color gradient in the sky, crisp distant ridges"}
+{"id":"dev-landscape-03","category":"landscape","seed":3013,"prompt":"Still lake surrounded by pine forest on an overcast day, subtle reflection, subdued colors"}
+{"id":"dev-landscape-04","category":"landscape","seed":3014,"prompt":"Rolling agricultural fields viewed from a hill, long evening shadows, natural aerial perspective"}
+{"id":"dev-text-01","category":"text","seed":3021,"prompt":"A minimal poster reading QUANTIZATION TEST in large centered sans-serif letters"}
+{"id":"dev-text-02","category":"text","seed":3022,"prompt":"Blue road sign with the exact words RESEARCH LAB and a white arrow pointing left"}
+{"id":"dev-text-03","category":"text","seed":3023,"prompt":"Coffee shop chalkboard showing TODAY: FILTER COFFEE in neat legible handwriting"}
+{"id":"dev-text-04","category":"text","seed":3024,"prompt":"A book cover titled THE FOUR BIT FRONTIER with a small geometric illustration"}
+{"id":"dev-macro-01","category":"macro","seed":3031,"prompt":"Extreme close-up of a mechanical watch movement, polished metal, precise fine detail"}
+{"id":"dev-macro-02","category":"macro","seed":3032,"prompt":"Macro photo of water droplets on a smooth purple flower petal, diffused light"}
+{"id":"dev-macro-03","category":"macro","seed":3033,"prompt":"Close-up photograph of woven blue fabric, individual fibers visible, even lighting"}
+{"id":"dev-macro-04","category":"macro","seed":3034,"prompt":"Macro photograph of a small green frog on a leaf, sharply focused eye, soft background"}
+{"id":"dev-anime-01","category":"anime","seed":3041,"prompt":"Anime illustration of two friends cooking in a small apartment kitchen, warm evening light"}
+{"id":"dev-anime-02","category":"anime","seed":3042,"prompt":"Anime city street at dawn after rain, a single bus approaching, delicate background detail"}
+{"id":"dev-anime-03","category":"anime","seed":3043,"prompt":"Anime character studying maps at a wooden desk, camping equipment around the room"}
+{"id":"dev-anime-04","category":"anime","seed":3044,"prompt":"Anime view from a hilltop observatory under a starry sky, clean line art, deep blues"}
+{"id":"dev-architecture-01","category":"architecture","seed":3051,"prompt":"Modern glass office atrium with straight vertical lines, midday light, architectural photography"}
+{"id":"dev-architecture-02","category":"architecture","seed":3052,"prompt":"Historic stone railway station facade, frontal view, evenly overcast sky, no people"}
+{"id":"dev-architecture-03","category":"architecture","seed":3053,"prompt":"Narrow concrete stairwell lit from above, repeating steps, precise perspective"}
+{"id":"dev-architecture-04","category":"architecture","seed":3054,"prompt":"White coastal house with blue shutters, clean walls, strong afternoon sunlight"}
+{"id":"dev-smooth-01","category":"smooth","seed":3061,"prompt":"Large pale blue sky above a calm flat ocean, minimal composition, smooth gradients"}
+{"id":"dev-smooth-02","category":"smooth","seed":3062,"prompt":"A plain plaster wall with a broad soft shadow from an unseen window, neutral colors"}
+{"id":"dev-smooth-03","category":"smooth","seed":3063,"prompt":"Two glossy white bowls on a seamless light gray background, soft studio illumination"}
+{"id":"dev-smooth-04","category":"smooth","seed":3064,"prompt":"Foggy field with one distant tree, extremely subtle tonal transitions, quiet atmosphere"}
+{"id":"dev-complex-01","category":"complex","seed":3071,"prompt":"Crowded bicycle workshop with tools, wheels, shelves and two mechanics, coherent realistic photograph"}
+{"id":"dev-complex-02","category":"complex","seed":3072,"prompt":"Detailed overhead view of a dinner table set for eight people, plates, glasses and food"}
+{"id":"dev-complex-03","category":"complex","seed":3073,"prompt":"A lively train platform with travelers and luggage, readable spatial depth, documentary style"}
+{"id":"dev-complex-04","category":"complex","seed":3074,"prompt":"Scientific laboratory filled with instruments, cables and glassware, three researchers working"}

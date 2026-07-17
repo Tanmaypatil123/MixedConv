@@ -1,0 +1,46 @@
+schema_version: 1
+config_name: krea2_raw_bf16_v1
+status: candidate_frozen
+
+model:
+  id: krea/Krea-2-Raw
+  # Resolve and replace with the full immutable snapshot SHA on the first download.
+  revision: main
+  transformer_dtype: bfloat16
+  text_encoder_dtype: bfloat16
+  vae_dtype: bfloat16
+
+inference:
+  width: 1024
+  height: 1024
+  num_inference_steps: 52
+  guidance_scale: 3.5
+  num_images_per_prompt: 1
+  max_sequence_length: 512
+  attention_backend: sdpa
+  torch_compile: false
+  deterministic_algorithms: false
+  allow_tf32: false
+  seed_scheme: explicit_manifest
+
+runtime:
+  target: cloud_rtx_pro_6000
+  device: cuda
+  offload: none
+  record_peak_memory: true
+
+artifacts:
+  output_root: runs
+  save_images: true
+  save_final_latents: true
+  append_only_index: runs/index.jsonl
+
+protocol:
+  sanity_manifest: data/prompts/sanity.jsonl
+  calibration_manifest: data/prompts/calibration.jsonl
+  dev_manifest: data/prompts/dev.jsonl
+  primary_comparison: paired_to_bf16
+  quantization_scope: transformer_linear_layers_only
+  excluded_components:
+    - text_encoder
+    - vae
